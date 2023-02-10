@@ -1,0 +1,19 @@
+.container {
+  height: 72px;
+  display: flex;
+  padding: var(--page-gutters-desktop);
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  position: sticky;
+  z-index: 999;
+}
+
+.logoName {
+  font-family: 'Parabole';
+  font-size: var(--fontSize_MediumPlus);
+}
+
+.border {
+  border: 1px solid black;
+}

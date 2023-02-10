@@ -1,0 +1,34 @@
+.container {
+  background: var(--color-white);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.containerWrap {
+  padding: var(--page-gutters-desktop);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content {
+  width: 60%;
+}
+.logoName {
+  font-family: 'Parabole';
+  font-size: var(--fontSize_Medium);
+  padding-bottom: 20px;
+}
+
+.items {
+  display: flex;
+  font-family: 'PlexMono';
+  font-size: var(--fontSize_Mini);
+  font-weight: var(--fontWeight_Medium);
+  padding-bottom: 20px;
+  justify-content: space-between;
+}
+
+.paragraph {
+  font-family: 'Mono';
+}

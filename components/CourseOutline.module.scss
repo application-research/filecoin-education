@@ -1,0 +1,26 @@
+.courseOutline {
+  background: var(--color-white);
+  padding: var(--page-gutters-desktop);
+  padding-bottom: 80px;
+}
+
+.eyebrow {
+  font-family: 'Mono';
+  padding-bottom: 12px;
+}
+
+.title {
+  font-family: 'Parabole';
+  padding-bottom: 16px;
+  font-size: var(--fontSize_ExtraLarge);
+}
+
+.paragraph {
+  font-family: 'Mono';
+  max-width: 56ch;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}

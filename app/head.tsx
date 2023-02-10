@@ -1,7 +1,7 @@
 import DefaultMetaTags from '@components/DefaultMetaTags';
 
 export default async function Head({ params }) {
-  const title = 'example';
+  const title = 'Filecoin Academia';
   const description = 'CHANGEME: description for your application using next-sass';
   const url = 'CHANGEME: your-production-url.tld';
 

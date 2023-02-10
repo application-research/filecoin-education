@@ -1,0 +1,42 @@
+.container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: var(--color-text);
+}
+
+.containerWrap {
+  padding: var(--page-gutters-desktop);
+}
+
+.eyebrow {
+  padding-top: 80px;
+  color: var(--color-lime-green);
+  font-family: 'Mono';
+  padding-bottom: 20px;
+}
+
+.heading {
+  font-family: 'Parabole';
+  color: var(--color-lime-green);
+  font-size: var(--fontSize_Jumbo);
+  padding-bottom: 80px;
+}
+
+.paragraph {
+  font-family: 'Mono';
+  color: var(--color-lime-green);
+  max-width: 80ch;
+  padding-bottom: 80px;
+}
+
+.rowOfImages {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 40px;
+  gap: 40px;
+}
+
+.image {
+  height: 30px;
+  max-width: 40%;
+}
