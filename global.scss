@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'Mono';
+  src: url('https://next-s3-public.s3.us-west-2.amazonaws.com/JetBrainsMono-Regular.woff2') format('woff');
+}
+
+@font-face {
+  font-family: 'MonoMedium';
+  src: url('https://next-s3-public.s3.us-west-2.amazonaws.com/JetBrainsMono-Medium.woff2') format('woff');
+}
+
+@font-face {
+  font-family: 'PlexMono';
+  src: url('https://next-s3-public.s3.us-west-2.amazonaws.com/fonts/mono.woff') format('woff');
+}
+
 html,
 body,
 div,
@@ -102,8 +117,16 @@ section {
 
 html,
 body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
   --color-background: #ffffff;
   --color-text: #000000;
+  --color-black: #0000;
+  --color-green: #23ff5b;
+  --color-white: #fff;
+  --color-lime-green: #b1ffc5;
 
   font-size: 16px;
   background: var(--color-background);
@@ -111,6 +134,44 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, sans-serif;
   scrollbar-width: none;
   -ms-overflow-style: -ms-autohiding-scrollbar;
+
+  // ------------------------------------------------------------------- Fonts
+
+  --fontSize_Tiny: 0.813rem;
+  --fontSize_TinyPlus: 0.875rem;
+  --fontSize_Mini: 1rem;
+  --fontSize_MiniPlus: 1.0625rem;
+  --fontSize_Small: 1.125rem;
+  --fontSize_Regular: 1.25rem;
+  --fontSize_Medium: 1.5rem;
+  --fontSize_Link: 1.563rem;
+  --fontSize_MediumPlus: 1.625rem;
+  --fontSize_MediumLarge: 1.875rem;
+  --fontSize_Large: 2.1875rem;
+  --fontSize_LargePlus: 2.75rem;
+  --fontSize_ExtraLarge: 2.813rem;
+  --fontSize_Jumbo: 3.125rem;
+  --fontSize_Massive: 3.4375rem;
+  --fontSize_Giant: 4.375rem;
+  --fontSize_Trenta: 6.25rem;
+
+  // ---------------------------------------------------------------------- Weight
+
+  --fontWeight_Light: 300;
+  --fontWeight_Regular: 400;
+  --fontWeight_Book: 450;
+  --fontWeight_Medium: 500;
+  --fontWeight_Semibold: 600;
+
+  // ---------------------------------------------------------------------- Other
+  --page-gutters-default: 0 16px 0 16px;
+  --page-gutters-left-default: 16px;
+  --page-gutters-right-default: 16px;
+
+  --page-gutters-desktop: 0 88px 0 88px;
+  --page-gutters-left-default: 88px;
+  --page-gutters-right-default: 88px;
+  --page-width: 1440px;
 
   ::-webkit-scrollbar {
     display: none;
