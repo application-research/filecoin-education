@@ -5,7 +5,6 @@ import styles from '@components/Hero.module.scss';
 import Button from './Button';
 import PointsDemo from './PointsDemo';
 import { Canvas } from '@react-three/fiber';
-import { Boxes, Post } from './Box';
 
 export function Hero() {
   return (

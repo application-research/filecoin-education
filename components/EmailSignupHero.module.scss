@@ -1,0 +1,145 @@
+.heroContainer {
+  background: var(--color-blue);
+  background-position: center;
+  // background-image: url('https://user-images.githubusercontent.com/28320272/222744541-3e551847-52c6-4cf4-9814-798b83dfb23e.png');
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+
+  @media (max-width: 1050px) {
+    height: 100%;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.column1 {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding-left: var(--page-gutters-left-default);
+}
+
+.column2 {
+  width: 50%;
+}
+
+.heading {
+  font-family: 'Parabole';
+  font-size: var(--fontSize_Giant);
+  padding-bottom: 12px;
+}
+
+.subheading {
+  font-family: 'Mono';
+  max-width: 50ch;
+  padding-bottom: 28px;
+}
+
+.headingContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+  padding: var(--page-gutters-desktop);
+  margin: 0 auto 0 auto;
+  max-width: var(--page-width);
+  margin-top: 24px;
+
+  @media (max-width: 768px) {
+    padding: var(--page-gutters-default);
+  }
+}
+
+.smallHeading {
+  font-family: 'Parabole';
+  font-size: 32px;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+.label {
+  color: var(--color-white);
+  font-size: 16px;
+  background: var(--color-text);
+  font-family: 'Mono';
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid var(--color-white);
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
+}
+
+.imageContainer {
+  width: 100%;
+  padding: var(--page-gutters-default);
+  margin: 0 auto 0 auto;
+  max-width: var(--page-width);
+  overflow: hidden;
+  display: grid;
+  row-gap: 36px;
+
+  @media (max-width: 768px) {
+    row-gap: 12px;
+  }
+
+  @media (max-width: 300px) {
+    row-gap: 4px;
+  }
+}
+
+.graphicsContainer {
+  display: flex;
+
+  .estuaryIcon {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    bottom: 0;
+    right: 26%;
+  }
+
+  .filecoinIcon {
+    width: 100%;
+    height: 22rem;
+    position: absolute;
+    bottom: 0;
+    right: -40%;
+    @media (max-width: 1050px) {
+      height: 8rem;
+      right: -45%;
+    }
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+}
+
+.filecoinFlag {
+  height: auto;
+  @media (max-width: 768px) {
+    width: 6rem;
+    margin: 0 auto 0 auto;
+  }
+}

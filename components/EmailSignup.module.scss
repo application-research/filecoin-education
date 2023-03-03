@@ -1,0 +1,53 @@
+.paragraph {
+  font-family: 'PlexMono';
+  text-align: center;
+  max-width: 75ch;
+  margin-bottom: 4px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 20px;
+
+  @media (max-width: 500px) {
+    margin-bottom: 12px;
+    margin-top: -24px;
+  }
+
+  .text {
+    display: grid;
+    row-gap: 2rem;
+
+    @media (max-width: 768px) {
+      row-gap: 1rem;
+    }
+  }
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  width: 400px;
+  z-index: 99;
+  position: relative;
+  padding-bottom: 40px;
+
+  @media (max-width: 768px) {
+    width: 250px;
+  }
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.successText {
+  font-family: Mono;
+}

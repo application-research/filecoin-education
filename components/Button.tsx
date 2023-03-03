@@ -5,10 +5,10 @@ import styles from '@components/Button.module.scss';
 
 import LoaderSpinner from '@components/LoaderSpinner';
 
-const Button = (props: any) => {
+const Button = (props: any, className) => {
   if (props.loading) {
     return (
-      <button className={U.classNames(styles.button, styles.loading)} style={props.style}>
+      <button className={`${styles.button} ${styles.loading} ${className}`} style={props.style}>
         <LoaderSpinner style={{ borderTop: `2px solid var(--main-primary)` }} />
       </button>
     );
