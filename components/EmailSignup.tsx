@@ -18,11 +18,9 @@ export default function EmailSignup() {
       {state.success ? (
         <div className={styles.successContainer}>
           <div className={styles.successContainer} style={{ display: 'flex' }}>
-            <div style={{ alignItems: 'center', justifyContent: 'center' }}>
-              <p className={styles.successText}>
-                Thank you for singing up! Your response has been recorded. <br />
-              </p>
-            </div>
+            <p className={styles.successText} style={{ margin: '0 auto 0 auto' }}>
+              Thank you for singing up! Your response has been recorded. <br />
+            </p>
           </div>
         </div>
       ) : (
