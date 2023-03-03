@@ -7,6 +7,7 @@ import FilecoinHeading from './icons/FilecoinHeadingSVG';
 import EmailSignup from './EmailSignup';
 import FilecoinSVG from './icons/FilecoinSVG';
 import EstuarySVG from './icons/EstuarySVG';
+import PixelsSVG from './icons/PixelsSVG';
 
 export function EmailSignUpHero() {
   return (
@@ -28,6 +29,7 @@ export function EmailSignUpHero() {
           </div>
         </div>
         <div className={styles.graphicsContainer}>
+          <PixelsSVG className={styles.pixelsIcon} />
           <EstuarySVG className={styles.estuaryIcon} />
 
           <FilecoinSVG className={styles.filecoinIcon} />

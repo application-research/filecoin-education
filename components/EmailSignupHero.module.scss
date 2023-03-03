@@ -110,6 +110,21 @@
 .graphicsContainer {
   display: flex;
 
+  .pixelsIcon {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+
+    @media (max-width: 1050px) {
+      width: 6rem;
+      top: 15%;
+      left: 2%;
+    }
+
+    @media (max-width: 768px) {
+      width: 3rem;
+    }
+  }
   .estuaryIcon {
     width: 100%;
     display: flex;
