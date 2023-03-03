@@ -3,7 +3,7 @@
 import styles from '@components/Hero.module.scss';
 
 import Button from './Button';
-import PointsDemo from './PointsDemo';
+
 import { Canvas } from '@react-three/fiber';
 
 export function Hero() {
@@ -21,7 +21,6 @@ export function Hero() {
       <div className={styles.column2}>
         <Canvas orthographic camera={{ zoom: 200 }}>
           <color attach="background" args={['#000']} />
-          <PointsDemo />
         </Canvas>
       </div>
     </div>
