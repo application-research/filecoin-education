@@ -9,12 +9,12 @@ import FilecoinSVG from './icons/FilecoinSVG';
 import EstuarySVG from './icons/EstuarySVG';
 import PixelsSVG from './icons/PixelsSVG';
 
-export function EmailSignUpHero() {
+export function SectionEmailSignup() {
   return (
     <div className={styles.heroContainer}>
       <div className={styles.content}>
         <div className={styles.headingContainer}>
-          <h4 className={styles.smallHeading}>Filecoin Academia</h4>
+          <h4 className={styles.smallHeading}>Filecoin Education</h4>
           <div className={styles.label}>Protocol Labs</div>
         </div>
         <div className={styles.imageContainer}>

@@ -52,7 +52,7 @@ export default function EmailSignup() {
                     setState({ ...state, loading: true });
 
                     try {
-                      fetch('/api/send-feedback', {
+                      fetch('/api/signup', {
                         method: 'POST',
                         headers: {
                           Accept: 'application/json',
@@ -68,10 +68,8 @@ export default function EmailSignup() {
 
                     setState({
                       ...state,
-
                       loading: true,
                       email: '',
-
                       success: true,
                     });
                   }}
