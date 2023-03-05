@@ -5,7 +5,7 @@ export default function Navigation() {
   return (
     <div className={styles.container}>
       <div className={styles.logo}>
-        <h1 className={styles.logoName}>Filecoin Academia</h1>
+        <h1 className={styles.logoName}>Filecoin Education</h1>
       </div>
       <div className={styles.button}>
         <Button>Start Learning</Button>
