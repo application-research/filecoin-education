@@ -1,16 +1,9 @@
 .heroContainer {
   background: var(--color-blue);
   background-position: center;
-  // background-image: url('https://user-images.githubusercontent.com/28320272/222744541-3e551847-52c6-4cf4-9814-798b83dfb23e.png');
-  // background-size: cover;
-  // background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
   height: 100vh;
-
-  @media (max-width: 1050px) {
-    height: 100%;
-  }
 }
 
 .content {
@@ -36,7 +29,7 @@
 }
 
 .heading {
-  font-family: 'Parabole';
+  font-family: 'Sohne-Halbfett';
   font-size: var(--fontSize_Giant);
   padding-bottom: 12px;
 }
@@ -64,8 +57,12 @@
 }
 
 .smallHeading {
-  font-family: 'Parabole';
-  font-size: 32px;
+  font-family: 'Sohne-Halbfett';
+  font-size: 28px;
+
+  @media (max-width: 1050px) {
+    font-size: 24px;
+  }
 
   @media (max-width: 768px) {
     font-size: 20px;
@@ -87,23 +84,32 @@
   @media (max-width: 768px) {
     font-size: 12px;
   }
+
+  @media (max-width: 360px) {
+    font-size: 8px;
+    white-space: nowrap;
+  }
 }
 
 .imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 36px;
   width: 100%;
   padding: var(--page-gutters-default);
   margin: 0 auto 0 auto;
   max-width: var(--page-width);
   overflow: hidden;
-  display: grid;
-  row-gap: 36px;
 
   @media (max-width: 768px) {
-    row-gap: 12px;
+    row-gap: 40px;
   }
 
   @media (max-width: 300px) {
-    row-gap: 4px;
+    row-gap: 8px;
   }
 }
 

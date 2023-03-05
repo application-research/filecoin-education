@@ -19,10 +19,10 @@ export function EmailSignUpHero() {
         </div>
         <div className={styles.imageContainer}>
           <div className={styles.filecoinFlag}>
-            <FilecoinFlag style={{ width: '100%' }} />
+            <FilecoinFlag style={{ width: '100%', height: 'auto' }} />
           </div>
           <div className={styles.filecoinHeading}>
-            <FilecoinHeading style={{ width: '100%' }} />
+            <FilecoinHeading style={{ height: 'auto', width: '100%' }} />
           </div>
           <div>
             <EmailSignup />

@@ -4,13 +4,13 @@
 }
 
 @font-face {
-  font-family: 'MonoMedium';
-  src: url('https://next-s3-public.s3.us-west-2.amazonaws.com/JetBrainsMono-Medium.woff2') format('woff');
+  font-family: 'Sohne-Buch';
+  src: url('/public/fonts/Sohne-Buch') format('otf');
 }
 
 @font-face {
-  font-family: 'PlexMono';
-  src: url('https://next-s3-public.s3.us-west-2.amazonaws.com/fonts/mono.woff') format('woff');
+  font-family: 'Sohne-Halbfett';
+  src: url('/public/fonts/Sohne-Halbfett') format('otf');
 }
 
 html,
