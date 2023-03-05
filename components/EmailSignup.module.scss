@@ -1,5 +1,5 @@
 .paragraph {
-  font-family: 'PlexMono';
+  font-family: 'Sohne-Buch';
   text-align: center;
   max-width: 75ch;
   margin-bottom: 4px;
@@ -15,12 +15,11 @@
 
   @media (max-width: 500px) {
     margin-bottom: 12px;
-    margin-top: -24px;
   }
 
   .text {
     display: grid;
-    row-gap: 2rem;
+    row-gap: 1.5rem;
 
     @media (max-width: 768px) {
       row-gap: 1rem;
@@ -38,7 +37,7 @@
   padding-bottom: 40px;
 
   @media (max-width: 768px) {
-    width: 250px;
+    width: 100%;
   }
 }
 
@@ -49,5 +48,8 @@
 }
 
 .successText {
-  font-family: Mono;
+  font-family: 'Sohne-Buch';
+  height: 20vh;
+  text-align: center;
+  margin: '0 auto 0 auto';
 }
