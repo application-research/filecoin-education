@@ -10,10 +10,10 @@ import * as Support from '@common/support';
 
 import { IncomingWebhook } from '@slack/webhook';
 
-export default async function apiEmailSignUp(req, res) {
+export default async function apiSend(req, res) {
   await S.cors(req, res);
 
-  const url = process.env.EMAIL_URL;
+  const url = process.env.SLACK_WEB_HOOK_URL;
   const webhook = new IncomingWebhook(url);
 
   await Support.send({

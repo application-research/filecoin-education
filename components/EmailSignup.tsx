@@ -40,8 +40,6 @@ export default function EmailSignup() {
               />
               <div className={styles.action}>
                 <Button
-                  className={styles.button}
-                  props={styles.button}
                   loading={state.loading}
                   onClick={async () => {
                     if (U.isEmpty(state.email)) {
@@ -69,7 +67,6 @@ export default function EmailSignup() {
                     setState({
                       ...state,
                       loading: true,
-                      email: '',
                       success: true,
                     });
                   }}
