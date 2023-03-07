@@ -1,6 +1,6 @@
 .button {
   background: var(--color-black);
-
+  font-family: 'Sohne-Buch';
   border: 1px solid var(--color-white);
   white-space: nowrap;
   color: var(--text-black);
@@ -25,8 +25,11 @@
   transform: scale(1);
   text-decoration: none;
   color: var(--color-white);
+  transition: background-color 200ms ease;
+
   &:hover {
     box-shadow: 0 5px 15px var(--button-shadow);
+    background-color: var(--color-gray48);
   }
 }
 
