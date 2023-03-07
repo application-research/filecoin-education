@@ -1,6 +1,6 @@
 'use client';
 
-import styles from '@components/EmailSignupHero.module.scss';
+import styles from '@components/SectionEmailSignup.module.scss';
 
 import FilecoinFlag from './icons/FilecoinFlag';
 import FilecoinHeading from './icons/FilecoinHeadingSVG';
@@ -15,7 +15,11 @@ export function SectionEmailSignup() {
       <div className={styles.content}>
         <div className={styles.headingContainer}>
           <h4 className={styles.smallHeading}>Filecoin Education</h4>
-          <div className={styles.label}>Protocol Labs</div>
+          <div className={styles.label}>
+            <a className={styles.link} href="https://protocol.ai/" target="_blank">
+              Protocol Labs
+            </a>
+          </div>
         </div>
         <div className={styles.imageContainer}>
           <div className={styles.filecoinFlag}>

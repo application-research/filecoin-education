@@ -58,11 +58,7 @@
 
 .smallHeading {
   font-family: 'Sohne-Halbfett';
-  font-size: 28px;
-
-  @media (max-width: 1050px) {
-    font-size: 24px;
-  }
+  font-size: 24px;
 
   @media (max-width: 768px) {
     font-size: 20px;
@@ -77,9 +73,14 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  padding: 4px 8px;
+  padding: 8px 20px;
   border-radius: 4px;
   border: 1px solid var(--color-white);
+  transition: background-color 200ms ease;
+
+  &:hover {
+    background-color: var(--color-gray48);
+  }
 
   @media (max-width: 768px) {
     font-size: 12px;
@@ -163,4 +164,10 @@
     width: 6rem;
     margin: 0 auto 0 auto;
   }
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-white);
+  font-family: 'Sohne-Buch';
 }
