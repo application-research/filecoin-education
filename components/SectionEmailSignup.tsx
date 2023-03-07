@@ -14,7 +14,11 @@ export function SectionEmailSignup() {
     <div className={styles.heroContainer}>
       <div className={styles.content}>
         <div className={styles.headingContainer}>
-          <h4 className={styles.smallHeading}>Filecoin Education</h4>
+          <div className={styles.logoContainer}>
+            <img className={styles.logo} src="https://user-images.githubusercontent.com/28320272/223461349-695cae41-0292-4814-a0cd-86970083c1db.png" />
+            <h4 className={styles.smallHeading}>Filecoin Education</h4>
+          </div>
+
           <div className={styles.label}>
             <a className={styles.link} href="https://protocol.ai/" target="_blank">
               Protocol Labs
