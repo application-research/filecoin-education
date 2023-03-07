@@ -4,7 +4,7 @@ export default async function Head({ params }) {
   const title = 'Filecoin Education';
   const description = 'Enroll into the most comprehensive Filecoin and Web3 certificate program on the new internet.';
   const url = 'www.filecoin.education';
-  const image = 'https://user-images.githubusercontent.com/28320272/222938353-9c59e585-a6ba-48c5-8980-dd3967fdbfdc.png';
+  const image = 'https://user-images.githubusercontent.com/28320272/223467049-9a30dd41-5e77-4587-bc6e-c9ad33c91071.png';
 
   return (
     <>
